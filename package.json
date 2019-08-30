@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.13.1",
+    "jsonata": "^1.6.5",
+    "lodash": "^4.17.15",
     "yaml": "^1.6.0"
   }
 }

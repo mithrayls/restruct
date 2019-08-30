@@ -1,6 +1,14 @@
+# Input
+
 mindepth: 2
-minimize: "depth" # depth|breadth
+maxdepth: 4 
+extname_tag: false
+basename_tag: true
 ignore:
   - ".git" 
   - "node_modules"
   - ".gitignore"
+
+# Output
+minimize: "depth" # depth|breadth
+maxbreadth: 10

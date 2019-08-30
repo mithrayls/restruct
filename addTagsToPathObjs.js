@@ -1,10 +1,11 @@
 const path = require('path')
+const config = require('./loadConfig.js')
 
-async function addCategoriesToPathObjs(arr){
+async function addTagsToPathObjs(arr){
 
 	let new_arr = []
 	await arr.forEach(obj =>{
-		obj.categories = []
+		obj.tags = []
 		
 		let dirname		= path.dirname(obj.path)
 		let extname		= path.extname(obj.path)
@@ -13,12 +14,12 @@ async function addCategoriesToPathObjs(arr){
 		let path_cats = dirname.split('/')
 
 		if (path_cats.length > 0) {
-			obj.categories.push(...path_cats)
+			obj.tags.push(...path_cats)
 		}
-		if (extname){
-			obj.categories.push(extname)
-		} if (basename){
-		//	obj.categories.push(basename)
+		if ( extname && config.extname_tag){
+			obj.tags.push(extname)
+		} if ( basename && config.basename_tag ){
+			obj.tags.push(basename)
 		}
 
 		new_arr.push(obj)
@@ -29,4 +30,4 @@ async function addCategoriesToPathObjs(arr){
 
 }
 
-module.exports = addCategoriesToPathObjs
+module.exports = addTagsToPathObjs

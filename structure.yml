@@ -1,76 +1,138 @@
-- path: tag1/anteohu
-  type: file
-  categories:
-    - tag1
-- path: tag1/file.js
-  type: file
-  categories:
-    - tag1
-    - .js
-- path: tag1/tag23
+- path: src/ejs
   type: dir
-  categories:
-    - tag1
-- path: tag1/tag23/anteoh
+  tags:
+    - src
+    - ejs
+- path: src/ejs/page1.ejs
   type: file
-  categories:
-    - tag1
-    - tag23
-- path: tag1/tag23/anteohu
+  tags:
+    - src
+    - ejs
+    - page1
+- path: src/ejs/page2.ejs
   type: file
-  categories:
-    - tag1
-    - tag23
-- path: tag1/tag23/tag12
+  tags:
+    - src
+    - ejs
+    - page2
+- path: src/ejs/page3.ejs
+  type: file
+  tags:
+    - src
+    - ejs
+    - page3
+- path: src/js
   type: dir
-  categories:
-    - tag1
-    - tag23
-- path: tag1/tag23/tag12/tnh
+  tags:
+    - src
+    - js
+- path: src/js/page1.js
   type: file
-  categories:
-    - tag1
-    - tag23
-    - tag12
-- path: tag1/tag23/tag12/tnhe
+  tags:
+    - src
+    - js
+    - page1
+- path: src/js/page2.js
   type: file
-  categories:
-    - tag1
-    - tag23
-    - tag12
-- path: tag1/tag23/tag12/tnheu
+  tags:
+    - src
+    - js
+    - page2
+- path: src/js/page3.js
   type: file
-  categories:
-    - tag1
-    - tag23
-    - tag12
-- path: tag2/file4.js
+  tags:
+    - src
+    - js
+    - page3
+- path: src/scss
+  type: dir
+  tags:
+    - src
+    - scss
+- path: src/scss/page1.scss
   type: file
-  categories:
-    - tag2
-    - .js
-- path: tag2/file5.js
+  tags:
+    - src
+    - scss
+    - page1
+- path: src/scss/page2.scss
   type: file
-  categories:
-    - tag2
-    - .js
-- path: tag2/file6.js
+  tags:
+    - src
+    - scss
+    - page2
+- path: src/scss/page3.scss
   type: file
-  categories:
-    - tag2
-    - .js
-- path: tag3/file1.js
+  tags:
+    - src
+    - scss
+    - page3
+- path: src2/page1
+  type: dir
+  tags:
+    - src2
+    - page1
+- path: src2/page1/page1.ejs
   type: file
-  categories:
-    - tag3
-    - .js
-- path: tag3/file2.sh
+  tags:
+    - src2
+    - page1
+    - page1
+- path: src2/page1/page1.js
   type: file
-  categories:
-    - tag3
-    - .sh
-- path: tag3/file4.sh
+  tags:
+    - src2
+    - page1
+    - page1
+- path: src2/page1/page1.scss
   type: file
-  categories:
-    - tag3
-    - .sh
+  tags:
+    - src2
+    - page1
+    - page1
+- path: src2/page2
+  type: dir
+  tags:
+    - src2
+    - page2
+- path: src2/page2/page2.ejs
+  type: file
+  tags:
+    - src2
+    - page2
+    - page2
+- path: src2/page2/page2.js
+  type: file
+  tags:
+    - src2
+    - page2
+    - page2
+- path: src2/page2/page2.scss
+  type: file
+  tags:
+    - src2
+    - page2
+    - page2
+- path: src2/page3
+  type: dir
+  tags:
+    - src2
+    - page3
+- path: src2/page3/page3.ejs
+  type: file
+  tags:
+    - src2
+    - page3
+    - page3
+- path: src2/page3/page3.js
+  type: file
+  tags:
+    - src2
+    - page3
+    - page3
+- path: src2/page3/page3.scss
+  type: file
+  tags:
+    - src2
+    - page3
+    - page3
