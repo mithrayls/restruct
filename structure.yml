@@ -1,0 +1,76 @@
+- path: tag1/anteohu
+  type: file
+  categories:
+    - tag1
+- path: tag1/file.js
+  type: file
+  categories:
+    - tag1
+    - .js
+- path: tag1/tag23
+  type: dir
+  categories:
+    - tag1
+- path: tag1/tag23/anteoh
+  type: file
+  categories:
+    - tag1
+    - tag23
+- path: tag1/tag23/anteohu
+  type: file
+  categories:
+    - tag1
+    - tag23
+- path: tag1/tag23/tag12
+  type: dir
+  categories:
+    - tag1
+    - tag23
+- path: tag1/tag23/tag12/tnh
+  type: file
+  categories:
+    - tag1
+    - tag23
+    - tag12
+- path: tag1/tag23/tag12/tnhe
+  type: file
+  categories:
+    - tag1
+    - tag23
+    - tag12
+- path: tag1/tag23/tag12/tnheu
+  type: file
+  categories:
+    - tag1
+    - tag23
+    - tag12
+- path: tag2/file4.js
+  type: file
+  categories:
+    - tag2
+    - .js
+- path: tag2/file5.js
+  type: file
+  categories:
+    - tag2
+    - .js
+- path: tag2/file6.js
+  type: file
+  categories:
+    - tag2
+    - .js
+- path: tag3/file1.js
+  type: file
+  categories:
+    - tag3
+    - .js
+- path: tag3/file2.sh
+  type: file
+  categories:
+    - tag3
+    - .sh
+- path: tag3/file4.sh
+  type: file
+  categories:
+    - tag3
+    - .sh

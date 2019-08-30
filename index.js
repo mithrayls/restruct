@@ -1,12 +1,12 @@
 const fs 											= require('fs')
 const path 										= require('path')
-const yaml 										= require('js-yaml')
 const config_path							= './restruct.yml'
 const addCategoriesToPathObjs	= require('./addCategoriesToPathObjs.js')
+const yaml = require('yaml')
 var config
 
 try {
-	config = yaml.safeLoad(fs.readFileSync(config_path, 'utf8'))
+	config = yaml.parse(fs.readFileSync(config_path, 'utf8'))
 //	console.log(config)
 } catch (e) {}
 
@@ -65,4 +65,8 @@ statPaths('./')
 	.then( obj => {
 		console.log( obj )
 		return obj
+	})
+	.then( obj => {
+		let obj_yaml = yaml.stringify(obj)
+		fs.writeFileSync( './structure.yml', obj_yaml, 'utf8')
 	})

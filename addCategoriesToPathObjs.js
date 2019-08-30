@@ -18,7 +18,7 @@ async function addCategoriesToPathObjs(arr){
 		if (extname){
 			obj.categories.push(extname)
 		} if (basename){
-		obj.categories.push(basename)
+		//	obj.categories.push(basename)
 		}
 
 		new_arr.push(obj)
