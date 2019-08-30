@@ -2,137 +2,113 @@
   type: dir
   tags:
     - src
-    - ejs
 - path: src/ejs/page1.ejs
   type: file
   tags:
     - src
     - ejs
-    - page1
 - path: src/ejs/page2.ejs
   type: file
   tags:
     - src
     - ejs
-    - page2
 - path: src/ejs/page3.ejs
   type: file
   tags:
     - src
     - ejs
-    - page3
 - path: src/js
   type: dir
   tags:
     - src
-    - js
 - path: src/js/page1.js
   type: file
   tags:
     - src
     - js
-    - page1
 - path: src/js/page2.js
   type: file
   tags:
     - src
     - js
-    - page2
 - path: src/js/page3.js
   type: file
   tags:
     - src
     - js
-    - page3
 - path: src/scss
   type: dir
   tags:
     - src
-    - scss
 - path: src/scss/page1.scss
   type: file
   tags:
     - src
     - scss
-    - page1
 - path: src/scss/page2.scss
   type: file
   tags:
     - src
     - scss
-    - page2
 - path: src/scss/page3.scss
   type: file
   tags:
     - src
     - scss
-    - page3
 - path: src2/page1
   type: dir
   tags:
     - src2
-    - page1
 - path: src2/page1/page1.ejs
   type: file
   tags:
     - src2
-    - page1
     - page1
 - path: src2/page1/page1.js
   type: file
   tags:
     - src2
     - page1
-    - page1
 - path: src2/page1/page1.scss
   type: file
   tags:
     - src2
     - page1
-    - page1
 - path: src2/page2
   type: dir
   tags:
     - src2
-    - page2
 - path: src2/page2/page2.ejs
   type: file
   tags:
     - src2
-    - page2
     - page2
 - path: src2/page2/page2.js
   type: file
   tags:
     - src2
     - page2
-    - page2
 - path: src2/page2/page2.scss
   type: file
   tags:
     - src2
     - page2
-    - page2
 - path: src2/page3
   type: dir
   tags:
     - src2
-    - page3
 - path: src2/page3/page3.ejs
   type: file
   tags:
     - src2
-    - page3
     - page3
 - path: src2/page3/page3.js
   type: file
   tags:
     - src2
     - page3
-    - page3
 - path: src2/page3/page3.scss
   type: file
   tags:
     - src2
-    - page3
     - page3

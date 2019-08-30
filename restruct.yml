@@ -3,7 +3,7 @@
 mindepth: 2
 maxdepth: 4 
 extname_tag: false
-basename_tag: true
+basename_tag: false
 ignore:
   - ".git" 
   - "node_modules"

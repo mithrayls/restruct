@@ -10,9 +10,12 @@
   "author": "mithrayls <mithray@protonmail.com> (https://mithrayls.github.io/)",
   "license": "MIT",
   "dependencies": {
+    "d3": "^5.11.0",
     "js-yaml": "^3.13.1",
+    "jsdom": "^15.1.1",
     "jsonata": "^1.6.5",
     "lodash": "^4.17.15",
+    "venn.js": "^0.2.20",
     "yaml": "^1.6.0"
   }
 }
