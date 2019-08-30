@@ -1,0 +1,12 @@
+{
+  "name": "@mithray/restruct",
+  "version": "0.0.1",
+  "description": "Restructures folders according to tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mithrayls <mithray@protonmail.com> (https://mithrayls.github.io/)",
+  "license": "MIT"
+}
